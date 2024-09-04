@@ -100,3 +100,32 @@ newDiv.style.backgroundColor = "green";
 document.body.appendChild(newDiv);
 */
 
+// Event Listeners -------------------------------------------------
+
+// targeting the button element
+let button = document.querySelector("#testButton");
+
+// add click event listener to the button
+button.addEventListener("click", function(event){
+    button.textContent = " You clicked me!";
+    let content = document.getElementById("content");
+    content.textContent = "";
+    //log event details into console
+    console.log("Event type:", event.type);
+    console.log("Button text:", event.target.textContent);
+});
+
+//adding a mouseover event listener to change background color
+button.addEventListener("mouseover", function(event){
+    let body = document.querySelector("body");
+    body.style.backgroundColor = "yellow"
+    button.style.backgroundColor = "lightblue";
+});
+
+//adding mouseout event to reset background color
+button.addEventListener("mouseout",function(){
+    button.style.backgroundColor = "";
+    let body = document.querySelector("body");
+    body.style.backgroundColor = "";
+});
+

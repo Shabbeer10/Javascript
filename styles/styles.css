@@ -12,8 +12,9 @@ body {
     color: #333;
 }
 
-.addedClass{
-    text-decoration-color: aqua;
+#testButton{
+    background: none;
+    text-decoration:none
 }
 
 /* Header Styling */
@@ -58,6 +59,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+section{
+    text-decoration: none;
 }
 
 .content {

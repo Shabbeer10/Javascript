@@ -63,7 +63,9 @@ Function Scope: Variables declared within a function are accessible only within 
 
 Block Scope: Variables declared with let or const within a block ({}) are accessible only within that block.
 
-
 # DOM manipulation -----------------------------------------------
 
 The DOM is a structured representation of an HTML document. It represents the page so that programs can change the document structure, style, and content. JavaScript can be used to manipulate the DOM, enabling developers to dynamically update the content and appearance of web pages.
+
+# Event Listeners -----------------------------------------------------
+
