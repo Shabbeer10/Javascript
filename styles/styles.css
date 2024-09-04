@@ -12,6 +12,10 @@ body {
     color: #333;
 }
 
+.addedClass{
+    text-decoration-color: aqua;
+}
+
 /* Header Styling */
 header {
     background: #333;
