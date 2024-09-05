@@ -101,15 +101,13 @@ document.body.appendChild(newDiv);
 */
 
 // Event Listeners -------------------------------------------------
-
+/*
 // targeting the button element
 let button = document.querySelector("#testButton");
 
 // add click event listener to the button
 button.addEventListener("click", function(event){
     button.textContent = " You clicked me!";
-    let content = document.getElementById("content");
-    content.textContent = "";
     //log event details into console
     console.log("Event type:", event.type);
     console.log("Button text:", event.target.textContent);
@@ -128,4 +126,25 @@ button.addEventListener("mouseout",function(){
     let body = document.querySelector("body");
     body.style.backgroundColor = "";
 });
+*/
 
+// creating elements ---------------------------------------
+/*
+// creating a new paragraph element
+let newParagraph = document.createElement("p");
+newParagraph.textContent = "This is a dynamically added paragraph.";
+newParagraph.id = "dynamic-paragraph";
+
+//Appending the new element to the body
+document.body.appendChild(newParagraph);
+
+//Creating a button to remove the paragraph
+let removeButton = document.createElement("button");
+removeButton.textContent = "Remove paragraph";
+document.body.prepend(removeButton);
+
+//adding event listener to the new button
+removeButton.addEventListener("click", function(){
+    newParagraph.remove();
+});
+*/
