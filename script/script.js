@@ -148,3 +148,24 @@ removeButton.addEventListener("click", function(){
     newParagraph.remove();
 });
 */
+
+// experimenting with text input 
+/*
+let button = document.getElementById("testButton");
+let ageInput = document.getElementById("ageInput");
+
+let age;
+
+button.addEventListener("click", function() {
+    age = Number(ageInput.value)
+    if (age <= 0) {
+        alert("please enter a valid age")
+    }
+
+    else if (age >= 18){
+        alert("You may pass")
+    }
+
+    else {alert("you are too young!")}
+});
+*/
