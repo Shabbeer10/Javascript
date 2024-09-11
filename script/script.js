@@ -149,7 +149,7 @@ removeButton.addEventListener("click", function(){
 });
 */
 
-// experimenting with text input 
+// experimenting with text input -------------------------------------
 /*
 let button = document.getElementById("testButton");
 let ageInput = document.getElementById("ageInput");
@@ -168,4 +168,20 @@ button.addEventListener("click", function() {
 
     else {alert("you are too young!")}
 });
+*/
+
+/*
+let num = 2;
+let string = "2";
+let check = string === num ? "This is true" : "This is false";
+
+console.log(check);
+
+let names = "Gamat"
+
+function naming(name){
+    return console.log("Good day", name);
+}
+
+naming("jhj")
 */
