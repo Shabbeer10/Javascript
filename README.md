@@ -16,7 +16,7 @@ This repository is a collection of my projects, exercises, and notes as I learn 
 
 ## Why I'm Learning JavaScript
 
-JavaScript is essential for web development, and it powers both the client and server side of modern applications (thanks to Node.js). As I aim to become a full-stack developer, understanding JavaScript in all its glory is important for building interactive websites and apps.
+JavaScript is essential for web development, and it powers both the client and server side of modern applications (thanks to Node.js). As I aim to become a full-stack developer (on my way to Data Engineering), understanding JavaScript in all its glory is important for building interactive websites and apps.
 
 ## Topics Covered So Far
 
